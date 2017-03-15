@@ -1,8 +1,54 @@
 html {
   text-size-adjust: 100%;
 }
-
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+  text-align: center;
+}
+hr{
+  border: 0;
+  border-bottom: 0.2em solid #c30;
+  margin: 0 2em 0 2em;
+}
+nav{
+  background-color: #eaeaea;
+  /*border-top : 0.2em solid red;*/
+  padding-bottom: 0.1em;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link { color: inherit;}
+nav a:visited { color: inherit;}
+nav a:hover {color: red}
+nav ul {
+  padding-left: 0;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+h6{
+  text-align:left;
+}
+h5{
+  font: 1 sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+#content{
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin-left: 20px
+}
+.layouts{
+  width: 450px;
+  flex: 3;
+}
+.layouts p{
+  column-count: 3;
+
 }
