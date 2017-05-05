@@ -1,27 +1,40 @@
 html {
   text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
   text-align: center;
 }
-hr{
-  border: 0;
+
+hr {
+  border: 0.2;
   border-bottom: 0.2em solid #c30;
-  margin: 0 2em 0 2em;
+  margin: 0 2em;
 }
-nav{
+
+nav {
   background-color: #eaeaea;
-  /*border-top : 0.2em solid red;*/
   padding-bottom: 0.1em;
 }
-nav a{
+
+nav a {
   text-decoration: none;
 }
-nav a:link { color: inherit;}
-nav a:visited { color: inherit;}
-nav a:hover {color: red}
+
+nav a:link {
+  color: inherit;
+}
+
+nav a:visited {
+  color: inherit;
+}
+
+nav a:hover {
+  color: red;
+}
+
 nav ul {
   padding-left: 0;
   list-style: none;
@@ -30,25 +43,35 @@ nav ul {
   justify-content: space-around;
   align-items: center;
 }
-h6{
-  text-align:left;
+
+h4 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
-h5{
-  font: 1 sans-serif;
+
+p {
   justify-content: center;
   align-items: center;
+  text-align: left;
 }
-#content{
+
+#content {
   display: flex;
   justify-content: space-around;
-  text-align: left;
-  margin-left: 20px
 }
-.layouts{
-  width: 450px;
+
+.hire p {
+  font-size: 11px;
+  column-count: 1;
+  display: flex;
+}
+
+.layouts {
   flex: 3;
 }
-.layouts p{
-  column-count: 3;
 
+.layouts p {
+  column-count: 3;
+  font-size: 11px;
 }
