@@ -16,4 +16,4 @@ Original:
 
 My version:
 
-![My Design](public/images/Design Co 2017-05-06 11-21-23.png)
+![My Design](public/images/newdesign.png)
